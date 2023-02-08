@@ -56,19 +56,20 @@ nav ul li a{
 
 
 .submit{
+    display: flex;
+    flex-direction: row;
+  justify-content: center;
+  align-items: center;
     width: 7vw;
     color: white;
     background-color: rgb(255, 135, 91);
     border: none;
     border-radius: 5px;
     height: 30px;
-    align-items: center;
     text-transform: uppercase;
-    /* font-weight: bolder; */
-    align-self: center;
     margin-right: 1vw;
-    
 }
+
 .submit>a{
     text-decoration: none;
     color: white;
@@ -617,11 +618,13 @@ ul li{
     .signBtn {
         display: flex;
     }
- 
+ .auth_buttons{
+    display: inline-flex;
+ }
     .submit{
         width: max-content;
         padding: 4px 8px;
-        
+        display: flex;
     }
     .logo-text{
         display: none;
