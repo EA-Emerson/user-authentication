@@ -56,6 +56,10 @@ nav ul li a{
 
 
 .submit{
+    display: flex;
+    flex-direction: row;
+  justify-content: center;
+  align-items: center;
     width: 7vw;
     color: white;
     background-color: rgb(255, 135, 91);
@@ -63,20 +67,9 @@ nav ul li a{
     border-radius: 5px;
     height: 30px;
     text-transform: uppercase;
-    text-align: center;
-    align-self: center;
     margin-right: 1vw;
-    
 }
 
-.signup, .signin {
-    
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-decoration: none;
-  color: white;
-}
 .submit>a{
     text-decoration: none;
     color: white;
@@ -625,11 +618,13 @@ ul li{
     .signBtn {
         display: flex;
     }
- 
+ .auth_buttons{
+    display: inline-flex;
+ }
     .submit{
         width: max-content;
         padding: 4px 8px;
-        
+        display: flex;
     }
     .logo-text{
         display: none;
