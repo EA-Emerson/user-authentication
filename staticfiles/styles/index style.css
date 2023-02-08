@@ -90,6 +90,9 @@ nav ul li a{
     
 
 }
+.signBtn {
+    display: flex ;
+}
 
 .cancel{
     font-size: 20px;
@@ -604,27 +607,20 @@ ul li{
     }
     nav{
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
+        max-width: 100vw;
     }
 
     .hide, .hello{
         display: flex;
     }
+    .signBtn {
+        display: flex;
+    }
+ 
     .submit{
         width: max-content;
-        /* padding: 4px 8px; */
-        color: white;
-        background-color: rgb(255, 135, 91);
-        /* margin-top: 0vh; */
-        border: none;
-        border-radius: 50px;
-        height: fit-content;
-        justify-content: center;
-        align-items: center;
-        align-content: center;
-        text-transform: uppercase;
-        text-align: center;
-        font-weight: bolder;
+        padding: 4px 8px;
         
     }
     .logo-text{
@@ -713,12 +709,12 @@ ul li{
         width: 100%;
     }
     .apple{
-        padding-left: 20px;
-        padding-right: 20px;
+        padding: 0;
     }
 
     .imgshow{
         display: block;
+        margin-top: 10vh;
     }
     .phone1{
         width: 100%;
@@ -741,6 +737,10 @@ ul li{
         padding-top: 40px;
         justify-content: space-around;
         text-align: center;
+    }
+    .apple, .google {
+        width: 35vw;
+        margin: 0 5px;
     }
     .big{
         width: 100%;

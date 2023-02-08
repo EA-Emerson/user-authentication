@@ -54,9 +54,10 @@
             <li class="nav-link"><button type='submit' class='submit'><a href='/signout'>Sign Out</a></button></li>
 
             {% else %}
-            <button type='submit' class='submit'><a href='signup'>Sign Up</a></button>
-            <button type='submit' class='submit'><a href='signin'>Sign In</a></button>
-
+            <div class="auth_buttons" >
+                <button type='submit' class='submit'><a href='signup'>Sign Up</a></button>
+                <button type='submit' class='submit'><a href='signin'>Sign In</a></button>
+            </div>
             {% endif %}
         </div>
 
@@ -74,16 +75,6 @@
                         
                     </ul>
                 </div>
-                {% comment %} {% else %}
-                <!-- <li class="nav-link"><a href="#">Home</a></li> -->
-                <li class="nav-link"><a href="signin">Sign In</a></li>
-                
-                <!-- <li class="nav-link"><a href="#">Argent X</a></li>
-                <li class="nav-link"><a href="#">Blog</a></li> -->
-                <a class="cancel" href="#" id="nav_close">x</a>
-                <li class="nav-link"><a href="signup">Sign Up</a></li>
-                <li class="nav-link"><a href="#">About Us</a></li>
-                {% endif %} {% endcomment %}
             </ul>
     </nav>
 
@@ -142,11 +133,11 @@
         </div>
         <div class="part2img">
             <div class="col-3">
-                <img src="../../static/img/earn 5% by staking eth.png" class="img2" alt="">
+                <img src="../../static/img/earn 5 by staking eth.png" class="img2" alt="">
                 <a href="#" class="prt2txt">Earn 5% by staking ETH</a>
             </div>
             <div class="col-3">
-                <img src="../../static/img/earn up to 15% on USDC and DAI.png" class="img2" alt="">
+                <img src="../../static/img/earn up to 15 on USDC and DAI.png" class="img2" alt="">
                 <a href="#" class="prt2txt">Earn up to 15% on USDC and DAI</a>
             </div>
             <div class="col-3">
